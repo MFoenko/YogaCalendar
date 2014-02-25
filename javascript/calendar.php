@@ -266,7 +266,7 @@
 
 
 			function onLoad(){
-				numEntriesPerDay = <?php include("php/scripts/getOption.php?type=NUM_OPTIONS&get=OPTION_NUMBER"); ?>
+				numEntriesPerDay = <?php include("php/scripts/loadConfiguration.php?type=NUM_OPTIONS&get=ROW"); ?>
 				calendarArray = new Calendar();
 				displayedDate = new Date();
 				var currentDate = new Date();
