@@ -1,0 +1,15 @@
+body{
+
+}
+
+#optionsHolder{
+	display:none;
+}
+
+.fancybox{
+	display: none;
+}
+
+ul{
+	margin: 20px 20px 20px 20px;
+}

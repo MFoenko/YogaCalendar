@@ -1,0 +1,118 @@
+/*Calendar*/
+.calendar_container{
+	float: left;
+	margin-left: 20px;
+}
+.calendar_table{
+	border: 2px solid black;
+	width:750px;
+	margin-top: 20px;
+}
+.calendar_cell{
+	border: 1px solid black;
+	width: 100px;
+	height:100px;
+}
+.calendar_empty_cell{
+}
+.day_count{
+	height:15px;
+}
+.diary_entry{
+	height:15px;
+}
+
+/*Month Nav*/
+.month_nav{
+	width: 750px;
+	float: left;
+}
+.displayed_month{
+	text-align: center;
+	width: 100px;
+}
+.previous_month_button{
+	float: left;
+	margin-left:30px;
+}
+.next_month_button{
+	float:right;
+	margin-right:30px;
+}
+.change_month_button{
+	width: 30px;
+	height:30px;
+	text-align: center;
+}
+.change_month_select{
+	margin:auto;
+	width:300px;
+	display: block;
+	font:30px Arial;
+}
+
+/*Page Nav*/
+.page_nav{
+	float: right;
+}
+
+.page_nav img{
+	height: 64px;
+	width: 64px;
+}
+
+/*Day Editor*/
+.day_editor{
+	float: right;
+	margin:26px 20px 0 0;
+	border:1px solid blue;
+	width: 400px;
+	height:300px;
+	font:30px Arial;
+}
+
+.day_editor .date{
+	margin:10px;
+}
+
+.day_editor input{
+	width:100px;
+	height:30px;
+	float:right;
+	margin-right:20px;
+
+}
+.day_editor label{
+	float: left;
+	margin-left: 20px;
+
+}
+
+.day_editor .save_day_button{
+	float:none;
+	margin:auto;
+	display:block;
+}
+
+
+@media print{
+
+	.day_editor{
+		display:none;
+	}
+	.month_nav{
+		display:none;
+	}
+	.calendar_container{
+		width: 100%;
+		margin:auto;
+	}
+}
+
+iframe {
+	position: fixed;
+	left: 10%;
+	top: 10%;
+	height: 80%;
+	width: 80%;
+}
